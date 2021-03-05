@@ -4,6 +4,9 @@
     margin-right: auto;
     margin-top: 50px;
 }
+.shortVideo h1 {
+    font-family: '微软雅黑';
+}
 video {
     width: 998px;
 }
