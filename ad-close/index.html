@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div id="app">
+        <h1>条件渲染</h1>
+        <div id="ad">
+            <img v-if="isShow" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F01imgmini.eastday.com%2Fmobile%2F20180917%2F20180917010255_ae72cf791b4d38499e6ecfc84e3fe1f2_1.jpeg&refer=http%3A%2F%2F01imgmini.eastday.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1622279588&t=4f4882aaa795a460366801aac6b3bf95" alt="刘翔的图片">
+            <button v-if="isShow" @click="isShow = !isShow">X</button>
+        </div>
+    </div>
+    <script>
+      const App = {
+        data() {
+          return {
+            isShow: true,
+          };
+        }
+      };
+      Vue.createApp(App).mount("#app");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    background-color: #e7eaed;
+}
+.shortVideo {
+    max-width: 998px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.shortVideo h1 {
+    font-family: '微软雅黑';
+}
+video {
+    width: 998px;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
